@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flex-wrap </title>
+    <style>
+        .continar{
+            width: 600px;
+            border: 3px solid red;
+            background: #eee;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            width:200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        
+        .wriper h1{
+            background-color: #534f49;
+            color: white;
+            padding: 10px;
+        }
+
+        .item1{
+            background-color: orange;
+        }
+        .item2{
+            background-color: yellowgreen;
+        }
+        .item3{
+            background-color: mediumpurple;
+        }
+        .item4{
+            background-color: hotpink;
+        }
+        .item{
+            color: #fff; font-size: 20px;
+            font-weight: bold;
+            padding: 5px;
+            margin: 2px;
+            
+        }
+.continar-2{
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+        </style>
+</head>
+<body>
+    <!-- css flex-wrap
+        1.flex-wrap
+        2.flex-wrap-reverse
+
+    -->
+    <div class="wriper">
+        <h1>css flex-wrap</h1>
+        <h4>Without css flex-wrap </h4>
+        <div class="continar">
+          <div class="item1 item">
+              one
+              </div>
+          <div class="item2 item">
+              two
+              </div>
+          <div class="item3 item">
+              three
+              </div>
+          <div class="item4  item">
+              four
+            </div>
+          <div class="item4  item">
+              four
+            </div>
+          <div class="item4  item">
+              four
+            </div>
+         </div>
+         <h4>with css flex-wrap </h4>
+         <div class="continar-2 continar">
+                <div class="item1 item">
+                    one
+                    </div>
+                <div class="item2 item">
+                    two
+                    </div>
+                <div class="item3 item">
+                    three
+                    </div>
+                <div class="item4  item">
+                    four
+                  </div>
+                <div class="item4  item">
+                    four
+                  </div>
+                <div class="item4  item">
+                    four
+                  </div>
+            </div>
+
+             
+   </div>
+</body>
+</html>
