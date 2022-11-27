@@ -1,22 +1,23 @@
 
 .wriper{
     width:50%;
-    
     margin: 0 auto;
   }
   
   img{
     width:50%;
-    float:left
+    float:left;
+    margin-right:10px;
+    clear: both;
   }
   
   .footer{
     background:red;
   }
   
-  .wriper:after,
-  .wriper:before{
+  /* .clearfix::before, [not working]
+  .clearfix::after{
     content:'';
     display:block;
     clear:both;
-  }
+  } */
