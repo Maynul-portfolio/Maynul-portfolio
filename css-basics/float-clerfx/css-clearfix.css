@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   }
   .case{
       color:red;
@@ -11,6 +11,7 @@ body{
     padding:50px;
     border:2px solid blue;
     margin-bottom:20px;
+    font-style: italic;
       
     
   }
@@ -19,7 +20,8 @@ body{
     color:blue;
     font-weight:200;
     float:left;
-    width:45%
+    width:45%;
+    font-family: monospace;
       
   }
   
@@ -47,6 +49,7 @@ body{
     margin-bottom:20px;
     padding:10px;
     box-sizing: border-box;
+    
   
   }
   .case-study-2 .box1{
@@ -55,18 +58,23 @@ body{
     float:left;
     width:45%;
     border:1px solid red;
+    padding: 5px;
+    font-family: monospace;
   }
   .case-study-2 .box2{
     color:green;
     font-weight:500;
     float:right;
     width:45%;
+    font-variant: small-caps;
   }
    .footer{
      height:150px;
      clear:both;
      background:blue;
      padding:10px;
+     font-style: italic;
+     font-family: monospace;
   }
   
   
