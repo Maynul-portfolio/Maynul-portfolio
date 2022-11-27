@@ -1,0 +1,22 @@
+
+.wriper{
+    width:50%;
+    
+    margin: 0 auto;
+  }
+  
+  img{
+    width:50%;
+    float:left
+  }
+  
+  .footer{
+    background:red;
+  }
+  
+  .wriper:after,
+  .wriper:before{
+    content:'';
+    display:block;
+    clear:both;
+  }
