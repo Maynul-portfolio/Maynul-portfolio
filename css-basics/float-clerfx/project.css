@@ -8,11 +8,13 @@
     width:50%;
     float:left;
     margin-right:10px;
-    clear: both;
+    height: 300px;
+  
   }
   
   .footer{
     background:red;
+    clear: both;
   }
   
   /* .clearfix::before, [not working]
